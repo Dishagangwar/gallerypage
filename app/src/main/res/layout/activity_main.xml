@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:content=".MainActivity"
+    android:background="@drawable/background"
+    >
+
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/iskon" />
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/iskon" />
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/iskon" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/wallpaper" />
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/wallpaper" />
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/wallpaper" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fourth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/image3" />
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/image3" />
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/image3" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fifth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/image4" />
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/image4" />
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/image4" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/sixth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/image7" />
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/image7" />
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/image7" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/seventh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/image8" />
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/image8" />
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="120dp"
+            android:padding="8dp"
+            android:src="@drawable/image8" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
