@@ -4,9 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:content=".MainActivity"
-    android:background="@drawable/background"
-    >
+    tools:content=".MainActivity"
+    android:background="@drawable/background">
 
     <LinearLayout
         android:id="@+id/second"
@@ -15,21 +14,24 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="135dp"
+            android:layout_width="140dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/iskon" />
+            android:src="@drawable/iskon"
+            android:contentDescription="@string/dam" />
 
         <ImageView
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/iskon" />
+            android:src="@drawable/iskon"
+            android:contentDescription="@string/dam"/>
         <ImageView
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/iskon" />
+            android:src="@drawable/iskon"
+            android:contentDescription="@string/dam"/>
 
 
     </LinearLayout>
@@ -43,18 +45,21 @@
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/wallpaper" />
+            android:src="@drawable/wallpaper"
+            android:contentDescription="@string/dam"/>
 
         <ImageView
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/wallpaper" />
+            android:src="@drawable/wallpaper"
+            android:contentDescription="@string/dam"/>
         <ImageView
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/wallpaper" />
+            android:src="@drawable/wallpaper"
+            android:contentDescription="@string/dam"/>
 
 
     </LinearLayout>
@@ -68,18 +73,21 @@
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/image3" />
+            android:src="@drawable/image3"
+            android:contentDescription="@string/dam"/>
 
         <ImageView
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/image3" />
+            android:src="@drawable/image3"
+            android:contentDescription="@string/dam"/>
         <ImageView
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/image3" />
+            android:src="@drawable/image3"
+            android:contentDescription="@string/dam"/>
 
 
     </LinearLayout>
@@ -93,18 +101,21 @@
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/image4" />
+            android:src="@drawable/image4"
+            android:contentDescription="@string/dam"/>
 
         <ImageView
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/image4" />
+            android:src="@drawable/image4"
+            android:contentDescription="@string/dam"/>
         <ImageView
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/image4" />
+            android:src="@drawable/image4"
+            android:contentDescription="@string/dam"/>
 
 
     </LinearLayout>
@@ -118,18 +129,21 @@
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/image7" />
+            android:src="@drawable/image7"
+            android:contentDescription="@string/dam"/>
 
         <ImageView
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/image7" />
+            android:src="@drawable/image7"
+            android:contentDescription="@string/dam"/>
         <ImageView
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/image7" />
+            android:src="@drawable/image7"
+            android:contentDescription="@string/dam" />
 
 
     </LinearLayout>
@@ -143,19 +157,22 @@
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/image8" />
+            android:src="@drawable/iskon"
+            android:contentDescription="@string/dam" />
 
         <ImageView
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/image8" />
+            android:src="@drawable/iskon"
+            android:contentDescription="@string/dam" />
 
         <ImageView
             android:layout_width="135dp"
             android:layout_height="120dp"
             android:padding="8dp"
-            android:src="@drawable/image8" />
+            android:src="@drawable/iskon"
+            android:contentDescription="@string/dam" />
 
 
     </LinearLayout>
